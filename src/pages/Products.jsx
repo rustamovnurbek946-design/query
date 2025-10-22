@@ -89,7 +89,7 @@ const Products = () => {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-b from-gray-50 to-blue-50">
       {/* === Cards === */}
-      <div className="grid flex-1 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 px-10 py-10">
+      <div className="grid flex-1 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 px-10 py-10 pl-20">
         {data?.map((fruit) => (
           <Card
             key={fruit.id}

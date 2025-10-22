@@ -15,7 +15,6 @@ export default function Sidebar() {
   const menuItems = [
     { name: "Home", icon: <HomeIcon className="h-5 w-5" />, path: "/" },
     { name: "Account", icon: <UserIcon className="h-5 w-5" />, path: "/account" },
-    { name: "Blocks", icon: <CubeIcon className="h-5 w-5" />, path: "/blocks" },
     { name: "Create", icon: <PlusCircleIcon className="h-5 w-5" />, path: "/create" },
   ];
 
@@ -66,13 +65,6 @@ export default function Sidebar() {
         </div>
       </aside>
 
-      {/* Overlay
-      {open && (
-        <div
-          className="fixed inset-0 bg-black/40 backdrop-blur-sm z-40"
-          onClick={() => setOpen(false)}
-        />
-      )} */}
     </>   
   );
 }

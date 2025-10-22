@@ -8,7 +8,7 @@ import { useForm } from "react-hook-form";
 import inctance from "../axios";
 import { useMutation } from "@tanstack/react-query";
 import { useNavigate } from "react-router-dom";
-import Swal from "sweetalert2"; // 💎 chiroyli alert uchun
+import Swal from "sweetalert2"; 
 
 export function SimpleRegistrationForm() {
   const nav = useNavigate();
